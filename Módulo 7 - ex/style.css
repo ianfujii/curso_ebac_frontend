@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ADLaM Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.formulario{
+    position: absolute;
+    top: calc(45% - 4em);
+    left: calc(38% - 4em);
+    background: #646a7e;
+    padding: 4em;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.5);
+}
+
+.input{
+    width: 15em;
+    height: 3em;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    text-align: center;
+}
+
+.input:first-child{
+    margin-right: 3em;
+}z
+
+#primeiroN{
+    background-color: #ffffff;
+}
+
+#primeiroN::placeholder, #segundoN::placeholder{
+    color: black;
+}
+
+#segundoN{
+    background-color: rgb(255, 255, 255);
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 53, 85);
+    border: none;
+    color: white;
+    width: 6em;
+    height: 2em;
+    border-radius: 0.5em;
+    margin: 0 auto;
+    margin-top: 3em;
+    box-shadow: 3px 2px 25px rgba(255, 255, 255, 0.5);
+
+    transition: ease-in-out all 0.5s;
+}
+
+.button:hover{
+    background: rgb(106, 183, 255);
+    color:  rgb(51, 53, 85);
+    box-shadow: 3px 2px 25px rgba(0, 0, 0, 0.5);
+    transition: ease-in-out all 0.5s;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 15em;
+    height: 2em;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 25px rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    margin-top: 1em;
+}
